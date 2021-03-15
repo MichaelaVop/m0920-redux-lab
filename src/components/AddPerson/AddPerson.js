@@ -2,10 +2,10 @@ import React from 'react';
 
 import './AddPerson.css';
 
-const addPerson = (props) => (
+const AddPerson = (props) => (
     <div className="AddPerson">
-        <button onClick={props.personAdded}>Add Person</button>
+        <button type='button' value='addPersBtn' onClick={props.personAdded}>Add Person</button>
     </div>
 );
 
-export default addPerson;
+export default AddPerson;
